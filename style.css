@@ -96,6 +96,7 @@ li a{
 .empower>p{
     font-size: 1.25rem;
     margin-bottom: 24px;
+    margin-left: 0;
 }
 
 .empower>button{
@@ -125,6 +126,8 @@ section >h1{
 
 .std_btn_gropu{
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 
 }
     
@@ -133,6 +136,7 @@ section >h1{
     background-image: url(/assets/bg.png);
     text-align: center;
 }
+
 .std_btn{
     height: 60px;
     width: 60px;
@@ -141,7 +145,8 @@ section >h1{
     border-radius: 30px;
     border-style: none;
     font-size: 2rem;
-    
+    margin-top: 80px;
+    margin-bottom: 80px;
     padding: 10px;
     margin-left: 10px;
     
@@ -152,43 +157,67 @@ section >h1{
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    gap: 30px;
 }
 
-.card_perents>div{
-    border-color: black;
-    border-width: 5px;
-}
-.card_child *  {
 
+
+.card_child_1>img, h2,p,h3{
     margin: 20px;
     padding: 20px;
-    display: flex ;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 18px;
-    border-width: 2px;
+    gap: 20px;
     
 }
 
-.card_child{
-    border-color: black;
+.card_child_1{
+    background: linear-gradient(to bottom, #DEF5FF 10%, white 20%);
+    border-radius: 18px;
+  
+    
 }
 
-.card-img{
-    height: 140px;
-    width: auto;
-    text-align: center;
-    padding-left: 80px;
+.card_child_2>img, h2,p,h3{
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+    
 }
+
+.card_child_2{
+    background: linear-gradient(to bottom, #FFF4DC 10%, white 20%);
+    border-radius: 18px;
+    border stroke-width: 10px;
+    
+}
+
+.card_child_3>img, h2,p,h3{
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+    
+}
+
+.card_child_3{
+    background: linear-gradient(to bottom, #F2E8FF 10%, white 20%);
+    border-radius: 18px;
+    
+    
+}
+/* Our Stories Related Styles */
+
+
+
+
+
 
 @media screen and (max-width: 576px){
     .navbar{
         flex-direction: column;
         justify-content: space-between;
         padding: 20px;
+    }
+    nav{
+        border-bottom: 1px solid orange;
     }
     .nav-items, .btn-m{
         display: none;
@@ -215,5 +244,15 @@ section >h1{
         margin-bottom: 80px;
         text-align: center;
     }
+
+    .card_perents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 10px;
+    }
+    
     
 }
