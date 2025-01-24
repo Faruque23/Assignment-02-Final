@@ -217,7 +217,7 @@ section >h1{
 }
 
 .our_stories{
-    background-image: url(/assets/bg.png);
+    background-image: linear-gradient(to top, orange 20%, white 80%,),url(/assets/bg.png);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -227,7 +227,6 @@ section >h1{
 .str_card_g_1{
     max-height: 630px;
     max-width: 540px;
-    background-color: whitesmoke;
     border-radius: 16px;
 
 
@@ -256,12 +255,14 @@ section >h1{
     margin: 0;
     padding: 0;
 }
-
+..str_card_g_2a1>h2{
+    padding: 10px;
+}
 .str_card_g_2a2{
     height: 300px;
     width: 290px;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .str_card_g_2b1{
@@ -281,7 +282,7 @@ section >h1{
 
 
 .str_card_g_2a>h2{
-    padding: 1rem;
+    font-size: 1rem;
 
 }
 
@@ -301,15 +302,16 @@ section >h1{
     border-style: none;
     color: white;
     border-radius: 12px;
-    text-align: center;
+    margin-left: 500px;
+    
     
 
 }
+
 .str_card_g_2a{
     height: 300px;
     width: 600px;
     border-radius:16px ;
-    background-color: #FFF4DC;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -322,7 +324,6 @@ section >h1{
     height: 300px;
     width: 600px;
     border-radius:16px ;
-    background-color: #FFF4DC;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -360,6 +361,55 @@ section >h1{
     border-top-right-radius: 16px;
 }
 
+/* Footer Related styles */
+
+footer{
+    background-color: #01ACFD;
+    margin-top: 80px;
+    padding: 150px;
+}
+
+.footer_group{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer_logo_name{
+    width: 400px;
+
+}
+.logo_name>img{
+    height: 80px;
+    width: 80px;
+}
+
+.logo_name{
+    display: flex;
+    gap: 10px;
+}
+.logo_name>h1,p{
+    color: white;
+    
+}
+
+footer li{
+    list-style: none;
+    color: white
+    
+}
+.our_school{
+    width:300px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer h1{
+    color: white;
+    font-size: 1.25rem;
+}
 
 
 
@@ -408,6 +458,26 @@ section >h1{
         text-align: center;
         margin: 10px;
     }
+
+    .str_card_g_1{
+        display: none;
+    }
+    .str_btn{
+        margin-left: 200px;
+    }
+
+    .footer_group{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+
     
     
 }
