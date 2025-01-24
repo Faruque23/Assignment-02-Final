@@ -218,7 +218,7 @@ section >h1{
 }
 
 .our_stories{
-    background-image: linear-gradient(to top, orange 50%, white 80%),url(/assets/bg.png);
+    background-image: linear-gradient(to top, #FFD8B2 50%, white 80%),url(/assets/bg.png);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -229,6 +229,7 @@ section >h1{
     max-height: 630px;
     max-width: 540px;
     border-radius: 16px;
+    background-color: white;
 
 
 }
@@ -256,7 +257,7 @@ section >h1{
     margin: 0;
     padding: 0;
 }
-..str_card_g_2a1>h2{
+.str_card_g_2a1>h2{
     padding: 10px;
 }
 .str_card_g_2a2{
