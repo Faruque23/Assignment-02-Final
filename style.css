@@ -204,6 +204,161 @@ section >h1{
     
 }
 /* Our Stories Related Styles */
+.our_stories{
+    width: 100%;
+    height: 1020px ; 
+
+}
+
+
+.our_stories_h{
+    font-size: 2.9rem;
+    text-align: center;
+}
+
+.our_stories{
+    background-image: url(/assets/bg.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.str_card_g_1{
+    max-height: 630px;
+    max-width: 540px;
+    background-color: whitesmoke;
+    border-radius: 16px;
+
+
+}
+.str_card_img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+
+}
+.str_card_btn{
+    height: 50px;
+    width: 175px;
+    color: white;
+    background-color: #3CD8E8;
+    border-radius: 48px;
+    border-style: none;
+    margin-left: 30px;
+    margin-top: -500px;
+
+}
+
+.str_card_g_2a1{
+    height: 300px;
+    width: 290px;
+    margin: 0;
+    padding: 0;
+}
+
+.str_card_g_2a2{
+    height: 300px;
+    width: 290px;
+    margin: 0;
+    padding: 0;
+}
+
+.str_card_g_2b1{
+    height: 300px;
+    width: 290px;
+    margin: 0;
+    padding: 0;
+}
+
+.str_card_g_2b2{
+    height: 300px;
+    width: 290px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.str_card_g_2a>h2{
+    padding: 1rem;
+
+}
+
+.str_card_g_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.str_btn{
+    height: 50px;
+    width: 197px;
+    font-size: 1.25rem;
+    background-color: black;
+    border-style: none;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    
+
+}
+.str_card_g_2a{
+    height: 300px;
+    width: 600px;
+    border-radius:16px ;
+    background-color: #FFF4DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+.str_card_g_2b{
+    height: 300px;
+    width: 600px;
+    border-radius:16px ;
+    background-color: #FFF4DC;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+.str_btn_g_2{
+    height: 40px;
+    width: 170px;
+    font-size: 1 rem;
+    background-color: #95B226;
+    border-style: none;
+    color: white;
+    border-radius: 48px;
+    margin left: 30px;
+    
+    
+}
+
+.str_card_g_2a1{
+    margin: 0;
+    padding: 0;
+}
+
+.str_btn_g_2>h2{
+    font-size: 1rem;
+
+}
+
+.g2_img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
 
 
 
