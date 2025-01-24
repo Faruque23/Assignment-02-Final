@@ -207,6 +207,7 @@ section >h1{
 .our_stories{
     width: 100%;
     height: 1020px ; 
+    margin-bottom: 80px;
 
 }
 
@@ -217,7 +218,7 @@ section >h1{
 }
 
 .our_stories{
-    background-image: linear-gradient(to top, orange 20%, white 80%,),url(/assets/bg.png);
+    background-image: linear-gradient(to top, orange 50%, white 80%),url(/assets/bg.png);
     display: flex;
     justify-content: space-between;
     align-items: center;
