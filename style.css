@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* Navbar Related Styles */
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;   
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    
+
+}
+
+
+li a{
+    text-decoration: none;
+}
+.logo{
+    height: 62px;
+    width: 62px;
+}
+.logo-name{
+    margin-left: 10px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-m{
+    background-color: orange;
+    border-width: 0;
+    height: 50px;
+    width:197px ;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.menu-items{
+    list-style: none;
+    gap: 20px;
+}
+
+/* Hero Section Related Styles */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.empower{
+    max-width: 640px;
+    height: auto;
+}
+
+.empower >h1{
+    font-size: 3.5rem;
+    margin-bottom: 24px;
+}
+
+.empower>p{
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+}
+
+.empower>button{
+    height: 50px;
+    width: 197px;
+    font-size: 1.25rem;
+    background-color: black;
+    border-style: none;
+    color: white;
+    border-radius: 12px;
+
+}
+
+
+
+section >h1{
+    font-size: 2rem;
+}
+
+/* Standerd Curiculam Section Related Styles */
+.std_curriculum>h1{
+    font-size: 3rem;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.std_btn_gropu{
+    text-align: center;
+
+}
+    
+
+.std_curriculum{
+    background-image: url(/assets/bg.png);
+    text-align: center;
+}
+.std_btn{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 2rem;
+    
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+.card_perents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card_perents>div{
+    border-color: black;
+    border-width: 5px;
+}
+.card_child *  {
+
+    margin: 20px;
+    padding: 20px;
+    display: flex ;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 18px;
+    border-width: 2px;
+    
+}
+
+.card_child{
+    border-color: black;
+}
+
+.card-img{
+    height: 140px;
+    width: auto;
+    text-align: center;
+    padding-left: 80px;
+}
+
+@media screen and (max-width: 576px){
+    .navbar{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .nav-items, .btn-m{
+        display: none;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    .empower >h1{
+        font-size: 2.0rem;
+        margin-bottom: 24px;
+    }
+    .empower>p{
+        font-size: .87rem;
+        margin-bottom: 24px;
+    }
+    .std_curriculum>h1{
+        font-size: 1.6rem;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    
+}
